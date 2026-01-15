@@ -224,7 +224,7 @@ const Settings = ({ currentTheme, setCurrentTheme, btnStyle, setBtnStyle, btnCla
             </div>
           </div>
         </div>
-        <div className={`p-10 rounded-[3rem] ${theme === 'midnight' || theme === 'cyber' ? 'bg-white/5' : 'bg-slate-900'} text-white shadow-2xl relative overflow-hidden`}>
+        <div className={`p-10 rounded-[3rem] ${themes === 'midnight' || themes === 'cyber' ? 'bg-white/5' : 'bg-slate-900'} text-white shadow-2xl relative overflow-hidden`}>
           <h4 className="text-xl font-black mb-8 flex items-center gap-3"><Monitor className={`text-${accentColor}`} /> Diagnostic Ressources</h4>
           <div className="space-y-8 relative z-10">
             {[
